@@ -71,7 +71,7 @@ class Wanikani:
                 known_kanji.add(self.subject(subject_id)["data"]["characters"])
         return known_kanji
 
-    def get_furigana(self, text):
+    def furigana(self, text):
         """Return furigana replacements.
 
         Example:
@@ -80,28 +80,13 @@ class Wanikani:
         """
         kks = pykakasi.kakasi()
         result = kks.convert(text)
-        suffix_removal = ["て", "で", "く", "か", "、"]
-        replacements = {}
-        for item in result:
-            if not set(Wanikani.get_kanji(item["orig"])).issubset(self.known_kanji):
-                if len(item["orig"]) > 1:
-                    for sr in suffix_removal:
-                        if item["orig"][-1] == sr and item["hira"][-1] == sr:
-                            item["orig"] = item["orig"][:-1]
-                            item["hira"] = item["hira"][:-1]
-                furi = "{}[{}] ".format(item["orig"], item["hira"])
-                replacements[item["orig"]] = furi
-        return replacements
-
-    def furigana(self, text):
-        """Return original string with relevant furigana insertions."""
-        fg = self.get_furigana(text)
-        ret = text
-        for r in fg.items():
-            if r[0] not in ret:
-                print("PYKAKASI ERROR:", r)
-            ret = ret.replace(r[0].strip(), r[1].strip())
-        return ret
+        final = ""
+        for r in result:
+            if not set(Wanikani.get_kanji(r["orig"])).issubset(self.known_kanji):
+                final += f" {r['orig']}[{r['hira']}]"
+            else:
+                final += r["orig"]
+        return final
 
     def subject(self, id):
         """Get subject data by subject ID."""
