@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "vocab": "一",
+    "japanese": "一度、会いましょう",
+    "english": "Lets meet up once.",
+    "englishlit": "Once, let's meet.",
+    "grammar": { "ましょう": "Let's Do" },
+    "level": 1
+  },
+  {
+    "id": 2,
+    "vocab": "一",
+    "japanese": "一位はアメリカ人でした",
+    "english": "First place was an American",
+    "englishlit": "As for first place, it was an American.",
+    "grammar": { "でした": "Polite-past form of です" },
+    "level": 1
+  },
+  {
+    "id": 3,
+    "vocab": "一",
+    "japanese": "僕は世界で一番弱い",
+    "english": "I'm the weakest person in the world",
+    "englishlit": "As for me, out of everyone in the world, the most weakest",
+    "grammar": {
+      "世界で": "で is used in the 'range' meaning."
+    },
+    "level": 1
+  },
+  {
+    "id": 4,
+    "vocab": "一つ",
+    "japanese": "答えを一つ選びます",
+    "english": "Choose one answer",
+    "englishlit": "Answer, one choose",
+    "grammar": {
+      "選びます": "Infinitive form: ぶ conjugted to び",
+      "答えを": "を for action verbs"
+    },
+    "level": 1
+  },
+  {
+    "id": 5,
+    "vocab": "一つ",
+    "japanese": "お一人さま一つ限りです",
+    "english": "It's limited to one per customer.",
+    "englishlit": "Customer one thing limit",
+    "grammar": {},
+    "level": 1
+  },
+  {
+    "id": 6,
+    "vocab": "一つ",
+    "japanese": "昨日、一つめこぞうに合った",
+    "english": "Yesterday, I met a one eyed goblin.",
+    "englishlit": "Yesterday, one eyed goblin met.",
+    "grammar": {
+      "に": "If the verb has a nuance of direction or motion, the particle should be に. For “to meet” and “to kiss”, imaginatively speaking, you would move toward him or her."
+    },
+    "level": 1
+  },
+  {
+    "id": 7,
+    "vocab": "一人",
+    "japanese": "一人でカラオケに行きました",
+    "english": "I went to karaoke alone",
+    "englishlit": "By alone to karaoke went",
+    "grammar": {
+      "一人で": "で in this context is meansで destinationに verb. I.e. the means in which you verb to destination.",
+      "行き": "Infinitive form: く conjugated to き"
+    },
+    "level": 1
+  },
+  {
+    "id": 8,
+    "vocab": "一人",
+    "japanese": "一人はアメリカ人です",
+    "english": "One of them is American",
+    "englishlit": "As for the one person, they are American.",
+    "grammar": {},
+    "level": 1
+  },
+  {
+    "id": 9,
+    "vocab": "一人",
+    "japanese": "むすめは、今日初めて一人でお使いに行きました",
+    "english": "My daughter did the errands by herself for the first time today",
+    "englishlit": "Daughter, today first time alone errands went (to go do)",
+    "grammar": {
+      "で": "In this context is meansで destinationに verb.",
+      "行き": "Infinitive form: く conjugated to き"
+    },
+    "level": 1
+  },
+  {
+    "id": 10,
+    "vocab": "七",
+    "japanese": "明日の朝、七時に駅で会いませんか",
+    "english": "Why don't we met at the station at seven tomorrow morning",
+    "englishlit": "Today morning, at seven at the station meet why dont we",
+    "grammar": {
+      "に": " Indication of time",
+      "で": "Indication of location",
+      "ませんか": "Why don't (we)"
+    },
+    "level": 1
+  },
+  {
+    "id": 11,
+    "vocab": "七",
+    "japanese": "みかんが七こあります",
+    "english": "There are seven oranges",
+    "englishlit": "Orange seven exist",
+    "grammar": {
+      "こ/個": "General counter for 3D things",
+      "あります": "Existence/to have for non-living objects."
+    },
+    "level": 1
+  },
+  {
+    "id": 12,
+    "vocab": "七",
+    "japanese": "七人の小人と友たちになりたい",
+    "english": "I want to be friends with the seven dwarves",
+    "englishlit": "With Seven dwarves friends become want",
+    "grammar": {
+      "と": "Here, it means with / together with",
+      "なりたい": "Means want to become (breakdown: たい expresses desire to do verb, which is infinitive form. なる (to become) infinitive is なり. So we have なりたい means want to become.)",
+      "に": "We add the に particle as a sense of direction towards something, in this case towards becoming friends."
+    },
+    "level": 1
+  },
+  {
+    "id": 13,
+    "vocab": "七つ",
+    "japanese": "箱の中にりんごが七つあります",
+    "english": "There are seven apples in a box",
+    "englishlit": "In the box's inside, apple seven there are",
+    "grammar": {
+      "に": "Indication for location (the box's inside, 箱の中)",
+      "りんごが七つ": "Counters generally occur after the base word and before the verb.",
+      "が": "Generally ga is used for static verbs (e.g. exists) and wo for action verbs (e.g. eat)",
+      "あります": "Existence/to have for non-living objects."
+    },
+    "level": 1
+  },
+  {
+    "id": 14,
+    "vocab": "七つ",
+    "japanese": "二人でメロンを七つ食べました",
+    "english": "The two of us ate seven melons.",
+    "englishlit": "(by using) Two people, melon seven ate.",
+    "grammar": {
+      "二人で": "で marks something that is used to complete an action",
+      "メロンを": "を because action verb is used (食べ)",
+      "メロンを七つ": "Counters generally occur after the base word and before the verb."
+    },
+    "level": 1
+  },
+  {
+    "id": 15,
+    "vocab": "七つ",
+    "japanese": "七つ数えると、私は女になる",
+    "english": "After I count to seven, I will be a woman",
+    "englishlit": "seven count (if, then), I woman (towards) become",
+    "grammar": {
+      "と": "Used here in the if/then format: [Condition] + と + [Result].",
+      "になる": "Means 'to become'."
+    },
+    "level": 1
+  },
+  {
+    "id": 16,
+    "vocab": "三",
+    "japanese": "この問題用紙は、全部で三頁あります",
+    "english": "There are three pages of these questions total.",
+    "englishlit": "As for these question papers, in all (全部で) three pages there are.",
+    "grammar": {
+      "全部で": "Essentially means in all / in total.",
+      "あります": "Existence/to have for non-living objects."
+    },
+    "level": 1
+  },
+  {
+    "id": 17,
+    "vocab": "三",
+    "japanese": "私は三十二才です",
+    "english": "I am 32 years old",
+    "englishlit": "As for me, 32 years old.",
+    "grammar": {},
+    "level": 1
+  },
+  {
+    "id": 18,
+    "vocab": "三",
+    "japanese": "三回回ってワンと吠える",
+    "english": "Turn around three times and bark",
+    "englishlit": "Three times, turn around, WOOF and bark.",
+    "grammar": { "回って": "Te-form 回る->回って", "と": "と here means and" },
+    "level": 1
+  },
+  {
+    "id": 19,
+    "vocab": "三つ",
+    "japanese": "三つのせんたくしが音声で聞こえます",
+    "english": "You will hear three choices",
+    "englishlit": "Three choices (by) voice will be hearable",
+    "grammar": {
+      "せんたくし": "選択肢, means choices",
+      "が": "が here is subject particle",
+      "音声": "voices/speech",
+      "で": "Means by which the verb is executed (i.e. hearable by a voice)."
+    },
+    "level": 1
+  },
+  {
+    "id": 20,
+    "vocab": "三つ",
+    "japanese": "ここにボールを三つ入れてください",
+    "english": "Please put three balls in here",
+    "englishlit": "(in) here balls three put in please",
+    "grammar": {
+      "に": "Indication of location",
+      "を": "を because action verb is used (入れて)",
+      "入れて": "入れる->入れて te form means put in or insert."
+    },
+    "level": 1
+  },
+  {
+    "id": 21,
+    "vocab": "三つ",
+    "japanese": "三つモカにかまれた",
+    "english": "I got three mosquito bites",
+    "englishlit": "Three mosquitos (went and) bit",
+    "grammar": {
+      "モカ": "Mosquito",
+      "に": "If the verb has a nuance of direction or motion, the particle should be に.",
+      "かまれた": "噛まれる(will be bitten/will bite)->噛まれた(was bitten)"
+    },
+    "level": 1
+  },
+
+  {
+    "id": 22,
+    "vocab": "三人",
+    "japanese": "私には、兄弟が三人います",
+    "english": "I have three siblings.",
+    "englishlit": "",
+    "grammar": {
+      "私には": "Means 'I have/to me/for me/my'",
+      "兄弟が三人": "Counters generally occur after the base word and before the verb.",
+      "います": "Existence/to have for living objects. When using this, we mark the subject with が."
+    },
+    "level": 1
+  },
+  {
+    "id": 23,
+    "vocab": "三人",
+    "japanese": "その川には二、三人しかいませんでした",
+    "english": "There were only two or three people in the river",
+    "englishlit": "Speaking of inside the river, two, three people only (there wasn't anything else)",
+    "grammar": {
+      "しか": "Only. Usually しか is used in the situation where the speaker think that the amount is not enough or it's too little, with negative personal feeling involved.",
+      "しかいませんでした": "There wasn't anything but (2 or 3 people). Past Indicative Negative Form of いない. Casual equivalent is いなかった."
+    },
+    "level": 1
+  },
+  {
+    "id": 24,
+    "vocab": "三人",
+    "japanese": "三人のうちで、だれが一番タイプ?",
+    "english": "Out of those three people, which one is your type?",
+    "englishlit": "(Three people in this group) out of, who is number one type?",
+    "grammar": {
+      "のうちで": "Out of these/of all these, where で is used in the 'range' meaning, e.g. 世界で is in the world."
+    },
+    "level": 1
+  },
+  {
+    "id": 25,
+    "vocab": "九",
+    "japanese": "毎日九時間ぐらい勉強します",
+    "english": "I study for about nine hours every day.",
+    "englishlit": "Everyday nine hours about study",
+    "grammar": {
+      "ぐらい": "Used to express approximation in time",
+      "九": "Uses -ku reading for time"
+    },
+    "level": 1
+  }
+]
