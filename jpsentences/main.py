@@ -9,6 +9,7 @@ df = pd.read_json(jp.external_dir() / "data.json")
 # Generate extra info
 wk = jph.Wanikani(False)
 df["romaji"] = df.japanese.apply(jph.Wanikani.romaji)
+df["japanese_raw"] = df.japanese
 df["japanese"] = df.japanese.apply(wk.furigana)
 
 # Move level column to last
