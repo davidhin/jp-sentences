@@ -17,6 +17,7 @@ class Wanikani:
         self.headers = {"Authorization": f"Bearer {os.getenv('WANIKANI')}"}
         self.sync = sync
         self.subjects = self.download_all("https://api.wanikani.com/v2/subjects")
+        self.subjects = {i["id"]: i for i in self.subjects}
         self.reviews = self.download_all("https://api.wanikani.com/v2/reviews")
         self.assignments = self.download_all("https://api.wanikani.com/v2/assignments")
         self.known_kanji = self.get_known_kanji()
@@ -90,6 +91,4 @@ class Wanikani:
 
     def subject(self, id):
         """Get subject data by subject ID."""
-        for i in self.subjects:
-            if i["id"] == id:
-                return i
+        return self.subjects[id]
