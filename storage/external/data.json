@@ -97,7 +97,7 @@
     "id": 10,
     "vocab": "七",
     "japanese": "明日の朝、七時に駅で会いませんか",
-    "english": "Why don't we met at the station at seven tomorrow morning",
+    "english": "Why don't we meet at the station at seven tomorrow morning",
     "englishlit": "Today morning, at seven at the station meet why dont we",
     "grammar": {
       "に": " Indication of time",
@@ -300,5 +300,213 @@
       "開い": "opening from the centre (e.g. book, flower, hands, automatic doors ) : hiraku. opening in one direction / sliding (e.g. doors, windows, bottle): aku. Here, we use hiraku."
     },
     "level": 1
+  },
+  {
+    "id": 27,
+    "vocab": "九",
+    "japanese": "九羽の九官鳥をかっていました",
+    "english": "I used to have nine mynah birds.",
+    "englishlit": "Nine mynah birds I used to own.",
+    "grammar": {
+      "九羽": "羽 (wa) is counter for birds.",
+      "九官鳥": "Mynah bird. Read as kyuukanchou.",
+      "の": "Uses form counterのthing",
+      "かっていました": "Is from 飼う (kau) to keep/raise a pet",
+      "を": "飼う is an action verb, so we use を particle"
+    },
+    "level": 1
+  },
+  {
+    "id": 28,
+    "vocab": "九つ",
+    "japanese": "今日のテストには、辞書を使う問題が九つあります",
+    "english": "There are nine questions that require a dictionary on today’s test.",
+    "englishlit": "As for the inside of todays test, dictionary use/require problem nine there are.",
+    "grammar": {
+      "が": "Generally ga is used for static verbs.",
+      "九つ": "Counters generally occur after the base word and before the verb.",
+      "あります": "Existence/to have for non-living objects."
+    },
+    "level": 1
+  },
+  {
+    "id": 29,
+    "vocab": "九つ",
+    "japanese": "猫には九つの命があるって本当？",
+    "english": "Is it true that a cat has nine lives?",
+    "englishlit": "As for what a cat has, nine lives it has, it is said. Really?",
+    "grammar": {
+      "に": "Location of existance / ownership.",
+      "って": "it is said / quote something"
+    },
+    "level": 1
+  },
+  {
+    "id": 30,
+    "vocab": "九つ",
+    "japanese": "ドーナツを九つ使った",
+    "english": "I made nine donuts.",
+    "englishlit": "Nine donuts were made.",
+    "grammar": { "を": "を is used because 使った is action verb." },
+    "level": 1
+  },
+  {
+    "id": 31,
+    "vocab": "二",
+    "japanese": "二十一頁の二番はクラスでします",
+    "english": "We will work on question two on page twenty-one in class.",
+    "englishlit": "As for number two of page 21 we will do it in class",
+    "grammar": {
+      "します": "Polite form of する (to do). In this case, it refers to doing the second (question) on page 21",
+      "Link": "https://japanese.stackexchange.com/questions/91512/"
+    },
+    "level": 1
+  },
+  {
+    "id": 32,
+    "vocab": "二",
+    "japanese": "私の子供は二才です",
+    "english": "My child is two years old",
+    "englishlit": "My child is two years old",
+    "grammar": {},
+    "level": 1
+  },
+  {
+    "id": 33,
+    "vocab": "二",
+    "japanese": "私のおじは、猫を二匹かっています",
+    "english": "My uncle has two cats.",
+    "englishlit": "My uncle, cats two have/raise.",
+    "grammar": {
+      "匹": "匹 (hiki): counter for small animals",
+      "かっています": "is from 飼う (kau) to keep a pet."
+    },
+    "level": 1
+  },
+  {
+    "id": 34,
+    "vocab": "二つ",
+    "japanese": "二つの会話です",
+    "english": "It’s two dialogues.",
+    "englishlit": "It’s two dialogues.",
+    "grammar": {},
+    "level": 1
+  },
+  {
+    "id": 35,
+    "vocab": "二つ",
+    "japanese": "このカゴにりんごを二つ入れてください",
+    "english": "Please put two apples in this basket",
+    "englishlit": "This basket, in, apples two put in please.",
+    "grammar": {
+      "に": "Indication for location (inside the bag)",
+      "カゴ": "basket",
+      "を": "入れて is an action verb, so we use を particle"
+    },
+    "level": 1
+  },
+  {
+    "id": 36,
+    "vocab": "二つ",
+    "japanese": "彼の二つ目の悪行は、カエルの暗殺だった",
+    "english": "His second evil deed was the assassination of a frog.",
+    "englishlit": "As for his second mideed, frog's assasination it was.",
+    "grammar": {
+      "彼": "He, but mainly referring to someone objectively, not casual",
+      "二つ目": "counter + 目 means first, second, etc.",
+      "カエル": "Frog",
+      "だった": "Here, it is a past tense marker for noun (frogs assassination). It can be translated as 'was'."
+    },
+    "level": 1
+  },
+  {
+    "id": 37,
+    "vocab": "今すぐ",
+    "japanese": "今すぐ、会いに行きましょう",
+    "english": "Let's go meet them right away.",
+    "englishlit": "At once, towards meet let's go.",
+    "grammar": {
+      "に": "Continuative form + に + motion verb, where motion verb is go/come/return/leave. In this case, it is 'go to meet'.",
+      "ましょう": "Let's Do"
+    },
+    "level": 5
+  },
+  {
+    "id": 38,
+    "vocab": "今すぐ",
+    "japanese": "テキストフグのシーズン１なら、無料で今すぐ読めますよ",
+    "english": "You can read season 1 of TextFugu right now for free",
+    "englishlit": "If we are talking about Textfugu season 1, because it is free, right now, it can be read.",
+    "grammar": {
+      "なら": "If (it is this we are talking about), then...",
+      "無料": "Means free",
+      "で": "In this context, it is causal reason or motive for an action. Translates to 'due to', 'because of', 'owing to'.",
+      "読めます": "Potential form (expresses the idea of capability, e.g. can). Casual form is 読める"
+    },
+    "level": 5
+  },
+  {
+    "id": 39,
+    "vocab": "今すぐ",
+    "japanese": "いいから黙って今すぐ来い!",
+    "english": "Be quiet and come over at once!",
+    "englishlit": "Listen! Shut up and come here at once!",
+    "grammar": {
+      "いいから": "At the start of a sentence: Listen up!/It's fine! (but can sound irritated). It is made of いい (good) and から (because/since), but these don't really make sense individually.",
+      "黙る": "(damaru) To shut up.",
+      "来い": "plain imperative form of 来る. Polite would be 来てください."
+    },
+    "level": 5
+  },
+  {
+    "id": 40,
+    "vocab": "集める",
+    "japanese": "青いシャツを着ている人を集めてください",
+    "english": "Please gather the people wearing blue shirts",
+    "englishlit": "Blue shirt weaing people gather please.",
+    "grammar": {
+      "1.を": "着ている is action verb",
+      "着ている人": "People who are wearing (blue shirts)",
+      "2.を": "集めて is action verb"
+    },
+    "level": 10
+  },
+  {
+    "id": 41,
+    "vocab": "集める",
+    "japanese": "ユーザーからのフィードパックを集めている",
+    "english": "We've been gathering feedback from users",
+    "englishlit": "Adjective(From users) feedback are being gathered.",
+    "grammar": {
+      "からの": "In this case, からの means possession/description of something that came from something/someone.",
+      "の": "Why do we need the の after から? To make it adjectival instead of adverbial. Without の, から usually means 'from (someone/something)'. In the current scenario, the feedback could be coming from anywhere, like app store reviews. But if it is adverbial, then it implies we are gathering directly from the users themselves.",
+      "を": "集めて is action verb."
+    },
+    "level": 10
+  },
+  {
+    "id": 42,
+    "vocab": "集める",
+    "japanese": "私は外国の食べ物の写真を集めている",
+    "english": "I am collecting pictures of foreign food.",
+    "englishlit": "As for me, foreign food photos are being collected.",
+    "grammar": {
+      "を": "集めて is action verb."
+    },
+    "level": 10
+  },
+  {
+    "id": 43,
+    "vocab": "近く",
+    "japanese": "今は、学校の近くに、姉と住んでいます",
+    "english": "I’m currently living with my sister near the school",
+    "englishlit": "Talking about now, the area near the school, with my sister I am living.",
+    "grammar": {
+      "学校の近く": "The area near the school",
+      "に": "Indication for location (near the school)",
+      "と": "Here, it means with / together with",
+      "住んで": "住む: -mu te-form conjugation becomes -nde"
+    },
+    "level": 7
   }
 ]
