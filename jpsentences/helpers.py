@@ -6,6 +6,7 @@ import re
 import pandas as pd
 import pykakasi
 import requests
+import sqlalchemy
 
 import jpsentences as jp
 
@@ -18,7 +19,11 @@ class Wanikani:
         self.headers = {"Authorization": f"Bearer {os.getenv('WANIKANI')}"}
         self.sync = sync
         self.subjects = self.download_all("https://api.wanikani.com/v2/subjects")
+        df = pd.json_normalize(self.subjects)
+        df.columns = [i.replace("data.", "") for i in df.columns]
         self.subjects = {i["id"]: i for i in self.subjects}
+        self.sql = sqlalchemy.create_engine("sqlite://", echo=False)
+        df[["id", "object", "level", "characters"]].to_sql("subjects", con=self.sql)
         self.reviews = self.download_all("https://api.wanikani.com/v2/reviews")
         self.assignments = self.download_all("https://api.wanikani.com/v2/assignments")
         self.known_kanji = self.get_known_kanji()
@@ -93,6 +98,18 @@ class Wanikani:
     def subject(self, id):
         """Get subject data by subject ID."""
         return self.subjects[id]
+
+    def kanji(self, kanji):
+        """Get kanji info."""
+        where = f"characters == '{kanji}' and object == 'kanji'"
+        id = self.sql.execute(f"SELECT id FROM subjects where {where}").first()
+        return "Not found" if not id else self.subjects[id[0]]
+
+    def vocab(self, vocab):
+        """Get vocab info."""
+        where = f"characters == '{vocab}' and object == 'vocabulary'"
+        id = self.sql.execute(f"SELECT id FROM subjects where {where}").first()
+        return "Not found" if not id else self.subjects[id[0]]
 
     def worse_assignments(self, sorttype="total"):
         """View worse assignments in WaniKani.
