@@ -112,27 +112,18 @@ class Wanikani:
         return "Not found" if not id else self.subjects[id[0]]
 
     def worse_assignments(self, sorttype="total"):
-        """View worse assignments in WaniKani.
-
-        TODO: NEEDS REFACTORING
-        """
+        """View worse assignments in WaniKani."""
         df = pd.DataFrame.from_records([i["data"] for i in self.reviews])
-        df["incorrect_total"] = (
-            df.incorrect_meaning_answers + df.incorrect_reading_answers
-        )
-        df["char"] = df.subject_id.apply(
-            lambda x: self.subject(x)["data"]["characters"]
-        )
-        df["object"] = df.subject_id.apply(lambda x: self.subject(x)["object"])
-        df["lvl"] = df.subject_id.apply(lambda x: self.subject(x)["data"]["level"])
-        df = df[
-            ["object", "char", "subject_id", "lvl"]
-            + [i for i in df.columns if "incorrect" in i]
-        ]
-        df.columns = ["obj", "char", "subjid", "lvl", "meaning", "reading", "total"]
-        df = df.sort_values(sorttype, ascending=False).drop_duplicates(
-            subset=["subjid"]
-        )
+        df = df.rename(columns={"incorrect_meaning_answers": "meaning"})
+        df = df.rename(columns={"incorrect_reading_answers": "reading"})
+        df["total"] = df.meaning + df.reading
         df = df[df.total > 0]
+        df = df.groupby("subject_id").sum().reset_index()
+        df["data"] = df.subject_id.apply(lambda x: self.subject(x))
+        df["chars"] = df.data.apply(lambda x: x["data"]["characters"])
+        df["object"] = df.data.apply(lambda x: x["object"])
+        df["level"] = df.data.apply(lambda x: x["data"]["level"])
+        keep = ["level", "object", "chars", "meaning", "reading", "total"]
+        df = df[keep].sort_values("total", ascending=0)
         df.to_csv(jp.outputs_dir() / "worse_assignments.csv", index=0)
         return df
