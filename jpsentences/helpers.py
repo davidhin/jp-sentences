@@ -3,6 +3,7 @@ import os
 import pickle as pkl
 import re
 
+import pandas as pd
 import pykakasi
 import requests
 
@@ -92,3 +93,29 @@ class Wanikani:
     def subject(self, id):
         """Get subject data by subject ID."""
         return self.subjects[id]
+
+    def worse_assignments(self, sorttype="total"):
+        """View worse assignments in WaniKani.
+
+        TODO: NEEDS REFACTORING
+        """
+        df = pd.DataFrame.from_records([i["data"] for i in self.reviews])
+        df["incorrect_total"] = (
+            df.incorrect_meaning_answers + df.incorrect_reading_answers
+        )
+        df["char"] = df.subject_id.apply(
+            lambda x: self.subject(x)["data"]["characters"]
+        )
+        df["object"] = df.subject_id.apply(lambda x: self.subject(x)["object"])
+        df["lvl"] = df.subject_id.apply(lambda x: self.subject(x)["data"]["level"])
+        df = df[
+            ["object", "char", "subject_id", "lvl"]
+            + [i for i in df.columns if "incorrect" in i]
+        ]
+        df.columns = ["obj", "char", "subjid", "lvl", "meaning", "reading", "total"]
+        df = df.sort_values(sorttype, ascending=False).drop_duplicates(
+            subset=["subjid"]
+        )
+        df = df[df.total > 0]
+        df.to_csv(jp.outputs_dir() / "worse_assignments.csv", index=0)
+        return df
