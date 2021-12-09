@@ -288,5 +288,17 @@
       "九": "Uses -ku reading for time"
     },
     "level": 1
+  },
+  {
+    "id": 26,
+    "vocab": "九",
+    "japanese": "九頁を開いてください",
+    "english": "Please open to page 9.",
+    "englishlit": "Ninth page open please.",
+    "grammar": {
+      "を": "開い is an action verb, so we use を as the particle",
+      "開い": "opening from the centre (e.g. book, flower, hands, automatic doors ) : hiraku. opening in one direction / sliding (e.g. doors, windows, bottle): aku. Here, we use hiraku."
+    },
+    "level": 1
   }
 ]
