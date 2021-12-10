@@ -525,5 +525,20 @@
       "ね": "Ending particle that translates to 'right? huh? don't you agree?'"
     },
     "level": 7
+  },
+  {
+    "id": 45,
+    "vocab": "近く",
+    "japanese": "近くの焼き鳥屋で、一杯引っ掛けていかないか",
+    "english": "Don’t you want to have a drink at the yakitori shop nearby?",
+    "englishlit": "",
+    "grammar": {
+      "で": "Indication of location where something (seeing) takes place.",
+      "杯": "杯 (はい – hai) to count liquid in cups, glasses, and bowls.",
+      "引っ掛けて": "ひっかけて literally means 'hook' or 'catch', but really just means 'grab a drink'.",
+      "いかない": "行かない (not go) - Plain present indicative (negative). The present tense is used for incomplete habitual actions as well as for future intentions",
+      "か": "Indication for question. Turns 'not go' into 'don't you want to go?'."
+    },
+    "level": 7
   }
 ]
