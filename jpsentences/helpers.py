@@ -127,3 +127,21 @@ class Wanikani:
         df = df[keep].sort_values("total", ascending=0)
         df.to_csv(jp.outputs_dir() / "worse_assignments.csv", index=0)
         return df
+
+    def vocab_data_template(self, vocab):
+        """Get template JSON string for vocab data."""
+        ret = []
+        vdata = self.vocab(vocab)
+        for sent in vdata["data"]["context_sentences"]:
+            ret.append(
+                {
+                    "id": "",
+                    "vocab": vocab,
+                    "japanese": sent["ja"],
+                    "english": sent["en"],
+                    "englishlit": "",
+                    "grammar": {"": ""},
+                    "level": vdata["data"]["level"],
+                }
+            )
+        return ret
