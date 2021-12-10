@@ -531,7 +531,7 @@
     "vocab": "近く",
     "japanese": "近くの焼き鳥屋で、一杯引っ掛けていかないか",
     "english": "Don’t you want to have a drink at the yakitori shop nearby?",
-    "englishlit": "",
+    "englishlit": "At the Nearby yakitori shop, one drink grab don't you want?",
     "grammar": {
       "で": "Indication of location where something (seeing) takes place.",
       "杯": "杯 (はい – hai) to count liquid in cups, glasses, and bowls.",
@@ -540,5 +540,48 @@
       "か": "Indication for question. Turns 'not go' into 'don't you want to go?'."
     },
     "level": 7
+  },
+  {
+    "id": 46,
+    "vocab": "技",
+    "japanese": "これはまた際どい技をマスターしたね！",
+    "english": "You've mastered another tricky art like that one, have you?",
+    "englishlit": "As for this, again risky technique you've mastered, haven't you?",
+    "grammar": {
+      "また": "Again, implying that it has already happened at least once before.",
+      "際どい": "Risky, dangerous, hazardous.",
+      "を": "マスター is an action verb.",
+      "マスターした": "Plain past indicative for マスターする, to master. Polite is マスターしました"
+    },
+    "level": 14
+  },
+  {
+    "id": 47,
+    "vocab": "技",
+    "japanese": "コウイチはニッカに新しい技を仕込んでいるんですか？",
+    "english": "Is Koichi teaching Nikka a new technique?",
+    "englishlit": "As for joichi, to Nikka, new technique teaching?",
+    "grammar": {
+      "に": "Target (Indirect object). Mostly used to give or do something for someone. In general, if the verb has a nuance of direction or motion, the particle should be に.",
+      "を": "仕込む is an action verb.",
+      "仕込んでいる": "Te-form of 仕込む: to train/teach",
+      "んですか": "んですか is casual for のですか. Essentially, makes the question stronger, more emphasis / sometimes accusing."
+    },
+    "level": 14
+  },
+  {
+    "id": 48,
+    "vocab": "技",
+    "japanese": "柔道では力より技のほうが大切であります",
+    "english": "In judo, technique is more important than strength.",
+    "englishlit": "As for things done in Judo, strength than, technique more important.",
+    "grammar": {
+      "柔道": "Judo",
+      "で": "Indication of location where something (judo-ing) takes place ('in Judo...'). Note that Judo is not a physical location here, but we still use で.",
+      "より": "Roughly equal to 'than'. Thing + より -> Compared to thing.",
+      "のほうが": "Here, it is used in combination with より. This is more :adj: than the thing preceding より. :adj: follows the より/のほうが construct (in this case, 大切)",
+      "であります": "(rarer) Variant of desu."
+    },
+    "level": 14
   }
 ]
