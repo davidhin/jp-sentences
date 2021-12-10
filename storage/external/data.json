@@ -88,7 +88,7 @@
     "english": "My daughter did the errands by herself for the first time today",
     "englishlit": "Daughter, today first time alone errands went (to go do)",
     "grammar": {
-      "で": "In this context is meansで destinationに verb.",
+      "で": "Indication of location where something takes place. In this context is meansで destinationに verb.",
       "行き": "Infinitive form: く conjugated to き"
     },
     "level": 1
@@ -101,7 +101,7 @@
     "englishlit": "Today morning, at seven at the station meet why dont we",
     "grammar": {
       "に": " Indication of time",
-      "で": "Indication of location",
+      "で": "Indication of location where something takes place",
       "ませんか": "Why don't (we)"
     },
     "level": 1
@@ -138,7 +138,7 @@
     "english": "There are seven apples in a box",
     "englishlit": "In the box's inside, apple seven there are",
     "grammar": {
-      "に": "Indication for location (the box's inside, 箱の中)",
+      "に": "Indication for location where something is (the box's inside, 箱の中)",
       "りんごが七つ": "Counters generally occur after the base word and before the verb.",
       "が": "Generally ga is used for static verbs (e.g. exists) and wo for action verbs (e.g. eat)",
       "あります": "Existence/to have for non-living objects."
@@ -502,10 +502,27 @@
     "english": "I’m currently living with my sister near the school",
     "englishlit": "Talking about now, the area near the school, with my sister I am living.",
     "grammar": {
+      "近く": "Used as adverb. Live close/near to...",
       "学校の近く": "The area near the school",
-      "に": "Indication for location (near the school)",
+      "に": "Indication for location (where something is)",
       "と": "Here, it means with / together with",
       "住んで": "住む: -mu te-form conjugation becomes -nde"
+    },
+    "level": 7
+  },
+  {
+    "id": 44,
+    "vocab": "近く",
+    "japanese": "あのアイドル、近くで見るとあんまりかわいくないね",
+    "english": "Seen close up, that teen idol is not pretty at all, huh?",
+    "englishlit": "That idol over there, if seen in nearby vicinity, not really that cute, right?",
+    "grammar": {
+      "近く": "Used as a noun, e.g. vicinity, neighbourhood.",
+      "で": "Indication of location where something (seeing) takes place.",
+      "と": "Used here in the if/then format: [Condition] + と + [Result].",
+      "あんまり": "Not much / not very. あまり (colloquial form of あんまり) is an adverb, and adverbs modify verbs and adjectives. So, with negative verbs, it indicates the extent that the verb is not",
+      "かわいくない": "Not cute",
+      "ね": "Ending particle that translates to 'right? huh? don't you agree?'"
     },
     "level": 7
   }
