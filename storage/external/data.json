@@ -100,6 +100,7 @@
     "english": "Why don't we meet at the station at seven tomorrow morning",
     "englishlit": "Today morning, at seven at the station meet why dont we",
     "grammar": {
+      "の": "As a possessive, no comes between two nouns, after the possessor and before the possessee.",
       "に": " Indication of time",
       "で": "Indication of location where something takes place",
       "ませんか": "Why don't (we)"
@@ -138,6 +139,7 @@
     "english": "There are seven apples in a box",
     "englishlit": "In the box's inside, apple seven there are",
     "grammar": {
+      "の": "The particle の can be used to indicate where something is in relation to something else (inside, above, below, etc.)",
       "に": "Indication for location where something is (the box's inside, 箱の中)",
       "りんごが七つ": "Counters generally occur after the base word and before the verb.",
       "が": "Generally ga is used for static verbs (e.g. exists) and wo for action verbs (e.g. eat)",
@@ -207,6 +209,7 @@
     "english": "You will hear three choices",
     "englishlit": "Three choices (by) voice will be hearable",
     "grammar": {
+      "の": "Used in counter form (counter の something)",
       "せんたくし": "選択肢, means choices",
       "が": "が here is subject particle",
       "音声": "voices/speech",
@@ -323,6 +326,7 @@
     "english": "There are nine questions that require a dictionary on today’s test.",
     "englishlit": "As for the inside of todays test, dictionary use/require problem nine there are.",
     "grammar": {
+      "の": "As a possessive, no comes between two nouns, after the possessor and before the possessee.",
       "が": "Generally ga is used for static verbs.",
       "九つ": "Counters generally occur after the base word and before the verb.",
       "あります": "Existence/to have for non-living objects."
@@ -357,6 +361,7 @@
     "english": "We will work on question two on page twenty-one in class.",
     "englishlit": "As for number two of page 21 we will do it in class",
     "grammar": {
+      "の": "As a possessive, no comes between two nouns, after the possessor and before the possessee.",
       "します": "Polite form of する (to do). In this case, it refers to doing the second (question) on page 21",
       "Link": "https://japanese.stackexchange.com/questions/91512/"
     },
@@ -368,7 +373,9 @@
     "japanese": "私の子供は二才です",
     "english": "My child is two years old",
     "englishlit": "My child is two years old",
-    "grammar": {},
+    "grammar": {
+      "の": "As a possessive, no comes between two nouns, after the possessor and before the possessee."
+    },
     "level": 1
   },
   {
@@ -378,6 +385,7 @@
     "english": "My uncle has two cats.",
     "englishlit": "My uncle, cats two have/raise.",
     "grammar": {
+      "の": "As a possessive, no comes between two nouns, after the possessor and before the possessee.",
       "匹": "匹 (hiki): counter for small animals",
       "かっています": "is from 飼う (kau) to keep a pet."
     },
@@ -387,8 +395,8 @@
     "id": 34,
     "vocab": "二つ",
     "japanese": "二つの会話です",
-    "english": "It’s two dialogues.",
-    "englishlit": "It’s two dialogues.",
+    "english": "It's two dialogues.",
+    "englishlit": "It's two dialogues.",
     "grammar": {},
     "level": 1
   },
@@ -412,6 +420,7 @@
     "english": "His second evil deed was the assassination of a frog.",
     "englishlit": "As for his second mideed, frog's assasination it was.",
     "grammar": {
+      "の": "As a possessive, no comes between two nouns, after the possessor and before the possessee.",
       "彼": "He, but mainly referring to someone objectively, not casual",
       "二つ目": "counter + 目 means first, second, etc.",
       "カエル": "Frog",
@@ -583,5 +592,79 @@
       "であります": "(rarer) Variant of desu."
     },
     "level": 14
+  },
+  {
+    "id": 49,
+    "vocab": "二人",
+    "japanese": "DVDを、姉と二人で見ています",
+    "english": "I am watching a DVD with my older sister.",
+    "englishlit": "DVD, With sister as 2 people are watching.",
+    "grammar": {
+      "と": "With / Together with",
+      "で": "で marks something that is used to complete an action. Here, it shows the quantity. と expresses the 'togetherness' of the action."
+    },
+    "level": 1
+  },
+  {
+    "id": 50,
+    "vocab": "二人",
+    "japanese": "あの二人はいつも二人で組みたがる",
+    "english": "Those two want to be a couple all the time.",
+    "englishlit": "",
+    "grammar": {
+      "いつも": "Always",
+      "で": "means (a pair of two people) to complete an action (being a group)",
+      "組み": "Group (of people)",
+      "たがる": "Wants to do (third person)"
+    },
+    "level": 1
+  },
+  {
+    "id": 51,
+    "vocab": "二人",
+    "japanese": "彼女は二人殺しで逮捕された",
+    "english": "She was arrested for double murder.",
+    "englishlit": "As for her, double murder, was arrested.",
+    "grammar": {
+      "で": "Indicates a casual reason or motive for an action or occurrence. It translates into 'due to', 'because of', 'owing to', etc.",
+      "逮捕": "Arrest",
+      "された": "Past form of passive cojugation of する, which is される. Turns 'to arrest' into 'was arrested'."
+    },
+    "level": 1
+  },
+  {
+    "id": 52,
+    "vocab": "人情",
+    "japanese": "人情の温かさに生かされています",
+    "english": "I survive on the warmth of humanity.",
+    "englishlit": "With the warmth of humanity, I am kept alive.",
+    "grammar": {
+      "温かさ": "温かい means warm, 温かさ means warmth",
+      "に": "is a marker for the 'doer' of a passive verb. 生かされる is the passive form of the transitive verb 生かす ('to keep someone alive').",
+      "生かされています": "te form conjugation of 生かす (to let live/survive/to make the best use of). To be surviving.",
+      "Link1": "https://japanese.stackexchange.com/questions/91564",
+      "Link2": "https://www.wasabi-jpn.com/japanese-grammar/japanese-passive-form/"
+    },
+    "level": 13
+  },
+  {
+    "id": 53,
+    "vocab": "人情",
+    "japanese": "コウイチ様は　人情味に　あふれている　すばらしいお方　ですが、ビエト様は　ひとかけらの人情　もない　ごく　悪ヤクザ　です。",
+    "english": "Koichi-sama is such a wonderful person with deep empathy, but Viet is such a devilish yakuza with not one atom of humanity.",
+    "englishlit": "",
+    "grammar": {
+      "人情味": "Humanity, seems to be same as 人情",
+      "に": "is '(filled) with' or '(full) of'. It's one of the particles you can use with あふれる, 満ちる, etc. Both ～にあふれる and ～であふれる are used, but the former tends to be used with intangible things like 笑顔, 人情味, etc.",
+      "溢れている": "To overflow/flood/brim with",
+      "お方": "Person (gentleman/lady)",
+      "ですが": "But...",
+      "ひとかけら": "一欠片, meaning a piece / fragment",
+      "の": "Expresses hierarchy of information / As a general modifier.",
+      "もない": "Nothing",
+      "ごく": "Very / extremely",
+      "Link": "https://japanese.stackexchange.com/questions/91564"
+    },
+    "level": 13
   }
 ]
