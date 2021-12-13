@@ -798,5 +798,51 @@
     "englishlit": "In this photo man, my first kiss.",
     "grammar": { "に": "Indication for location (where something is)" },
     "level": 6
+  },
+  {
+    "id": 64,
+    "vocab": "事情",
+    "japanese": "大人には大人の事情があるんですよ。",
+    "english": "Adults have adult circumstances.",
+    "englishlit": "As for adults, they have adult circumstances.",
+    "grammar": {
+      "に": "Can be used after a person who has something (things, family etc.). Here, adults have something (adult circumstances)",
+      "が": "Generally ga is used for static verbs (e.g. exists)",
+      "ある": "Existence/to have for non-living objects (casual).",
+      "んです": "んです is casual for のです. To explain something / place more emphasis.",
+      "Link": "https://linguaholic.com/linguablog/ni-に-and-niwa-には-difference/"
+    },
+    "level": 13
+  },
+  {
+    "id": 65,
+    "vocab": "事情",
+    "japanese": "警察は　全ての事情を　考慮しなければならない。",
+    "english": "The police must take all circumstances into account.",
+    "englishlit": "Police, all circumstances, must consider.",
+    "grammar": {
+      "警察": "Police",
+      "を": "考慮する is an action verb.",
+      "考慮する": "To take into consideration. Here, it is conjugated to 考慮しなければ.",
+      "なければ": "If not (if I do not do something). れば by itself means if (I do something).",
+      "なければならない": "Must do / Have to. Usually replaced with'なきゃ' in casual conversation. 〜なければ means 'if you don't 〜', and ならない by itself means 'no good' or 'that won't do', you get 'That won't do/be good if you don't 〜'. Thus implying that you must do it."
+    },
+    "level": 13
+  },
+  {
+    "id": 66,
+    "vocab": "事情",
+    "japanese": "サマンサは　ワニカニのサービス利用代金が　払えない事情を　説明しました。",
+    "english": "Samantha explained the circumstances behind her inability to pay for using Wanikani.",
+    "englishlit": "Samantha, WaniKani service usage fee, unable-to-pay-circumstances, explained.",
+    "grammar": {
+      "利用代金": "利用 (Use/utilization/application), 代金 (price/cost). Hence, usage fee.",
+      "が": "が here is subject particle",
+      "はらえない": "払える (はらえない) means 'can pay/afford'. Can be conjugated using ~ない for negative plain verb form (can not pay).",
+      "を": "説明する is an action verb.",
+      "説明する": "To explain.",
+      "しました": "Polite past indicative for -suru. Plain is した. To explain -> explained."
+    },
+    "level": 13
   }
 ]
