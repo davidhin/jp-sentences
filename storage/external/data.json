@@ -844,5 +844,41 @@
       "しました": "Polite past indicative for -suru. Plain is した. To explain -> explained."
     },
     "level": 13
+  },
+  {
+    "id": 67,
+    "vocab": "毛",
+    "japanese": "足の毛cボーボーです。",
+    "english": "My leg hair is bushy.",
+    "englishlit": "Leg hair bushy.",
+    "grammar": {
+      "が": "Generally ga is used for static verbs (In this case, no verb?)",
+      "ボーボー": "Onomatopoeia: Hair is a lot and getting long / bushy."
+    },
+    "level": 3
+  },
+  {
+    "id": 68,
+    "vocab": "毛",
+    "japanese": "うちの犬の毛はよく抜ける。",
+    "english": "Our dog's fur falls off a lot.",
+    "englishlit": "Our dog's fur often falls off.",
+    "grammar": {
+      "うち": "Can be used as I/We.",
+      "よく": "よく immediately before a verb often means 'well', but sometimes can also mean 'often'. In this case, it means 'often'. Have to determine based on context.",
+      "抜ける": "抜ける (ぬける): To be extracted, to get extracted, to be plucked, to get plucked, to come out, to fall out"
+    },
+    "level": 3
+  },
+  {
+    "id": 69,
+    "vocab": "毛",
+    "japanese": "今一番大切なのは頭の毛だ。",
+    "english": "Right now the most important thing to me is the hair on my head.",
+    "englishlit": "Now, as for the most important thing, it is hair on head. ",
+    "grammar": {
+      "の": "In this instance, の is nominalising the adjective 大切な so that it can be referred to as the subject of the sentence."
+    },
+    "level": 3
   }
 ]
