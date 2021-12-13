@@ -731,7 +731,7 @@
     "englishlit": "Speaking of this town, very lively it is.",
     "grammar": {
       "とても": "Very",
-      "が": "Generally ga is used for static verbs (e.g. exists) and wo for action verbs (e.g. eat)",
+      "が": "Generally ga is used for static verbs (e.g. exists)",
       "あります": "Existence/to have for non-living objects."
     },
     "level": 6
@@ -753,11 +753,50 @@
     "vocab": "活気",
     "japanese": "市場は活気にあふれていた。",
     "english": "The market was overflowing with energy.",
-    "englishlit": "",
+    "englishlit": "As for the market, energy is full of.",
     "grammar": {
       "市場": "Market",
       "に": "is '(filled) with' or '(full) of'. It's one of the particles you can use with あふれる, 満ちる, etc. Both ～にあふれる and ～であふれる are used, but the former tends to be used with intangible things like 笑顔, 人情味, etc."
     },
+    "level": 6
+  },
+  {
+    "id": 61,
+    "vocab": "写る",
+    "japanese": "あなたのお兄さんは、この写真に写っていますか。",
+    "english": "Is your brother in these pictures?",
+    "englishlit": "Your brother, this picture in, is in this photograph?",
+    "grammar": {
+      "に": "Indication for location (where something is)",
+      "か": "Indication for question."
+    },
+    "level": 6
+  },
+  {
+    "id": 62,
+    "vocab": "写る",
+    "japanese": "今年撮った五百枚の写真の内、何と百三枚の写真に　去年死んだ父の姿が　写っていた。",
+    "english": "Among the 500 pictures I took this year, 103 of them had my father who had died last year in them.",
+    "englishlit": "Last year taken 500 photos among these, in 103 of them, figure of my father who died last year, was in these photographs.",
+    "grammar": {
+      "今年撮った": "Taken this year",
+      "枚": "Japanese Counter 枚 (まい): Everything Flat (paper, photographs and plates)",
+      "の内": "Among / Out of these (photographs)...",
+      "何と": "It is uttered to express one's surprise or amazement. Can mean 'Believe it or not', 'To my surprise', 'Surprisingly enough', etc.",
+      "に": "Indication for location (where something is)",
+      "姿": "姿 (すがた) means Figure/shape/form. In this case, the shape/form/image of my father who died last year.",
+      "が": "Generally ga is used for static verbs (e.g. exists)",
+      "ていた": "〜ていた is the past tense version of 〜ている. This form puts emphasis on the duration of a past action. E.g. was drinking, was in the photograph of."
+    },
+    "level": 6
+  },
+  {
+    "id": 63,
+    "vocab": "写る",
+    "japanese": "この写真に写っている男の人は、私のファーストキスです。",
+    "english": "The guy in this picture was my first kiss.",
+    "englishlit": "In this photo man, my first kiss.",
+    "grammar": { "に": "Indication for location (where something is)" },
     "level": 6
   }
 ]
