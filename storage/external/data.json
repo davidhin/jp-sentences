@@ -666,5 +666,21 @@
       "Link": "https://japanese.stackexchange.com/questions/91564"
     },
     "level": 13
+  },
+  {
+    "id": 54,
+    "vocab": "人情",
+    "japanese": "私達は　Tofuguの毎日のブログ記事を　通して、日本人の生き方や人情を　描き出す 　ことを目指しています。",
+    "english": "Our goal with the daily Tofugu articles is to depict human nature, emotions, and the everyday lives of Japanese individuals.",
+    "englishlit": "As for us, everyday-tofugu-block-articles through this, Japanese people's lives and humanity etc, we depict, is what we aim to do.",
+    "grammar": {
+      "私達": "We/our",
+      "通して": "through; via; throughout; by ~. Te-form of 通す, to let pass.",
+      "や": "The Japanese grammar particle や (ya) implies that there are other items that are not listed after mentioning two nouns (nounやnounを/が).  It is similar to 'and', but gives us the sense of a continuing list similar to 'etc'.  It is far more common to use nado or toka (literally: 'etc.') to achieve the same affect while speaking. や (ya) is used mostly in formal writing.",
+      "描き出す": "To depict, express, imagine, delineate",
+      "目指して": "to aim at/to have an eye on",
+      "ことを目指して": "Translates to 'The aim/goal is...'. こと emphasises that it is THE aim of Tofugu (?)."
+    },
+    "level": 13
   }
 ]
