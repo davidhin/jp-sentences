@@ -880,5 +880,45 @@
       "の": "In this instance, の is nominalising the adjective 大切な so that it can be referred to as the subject of the sentence."
     },
     "level": 3
+  },
+  {
+    "id": 70,
+    "vocab": "間",
+    "japanese": "たいてい、寝ている間は、暖房を切ります。",
+    "english": "Usually, I turn off the heater while I’m sleeping.",
+    "englishlit": "",
+    "grammar": {
+      "たいてい": "Mostly, ordinarily, usually",
+      "寝ている": "Sleeping. Te-form of 寝る",
+      "間": "(During this) Interval of time.",
+      "暖房": "暖房 (だんぼう): heater; heating unit",
+      "切ります": "切る -> To cut. In this context, it means to turn off (think: to cut off the heating)."
+    },
+    "level": 8
+  },
+  {
+    "id": 71,
+    "vocab": "間",
+    "japanese": "その間に、急いで　昼ごはんを　かきこみました。",
+    "english": "Meanwhile, I shoved my lunch in my mouth.",
+    "englishlit": "",
+    "grammar": {
+      "その間": "Meanwhile",
+      "に": " Indication of time",
+      "急いで": "Te-form of 急ぐ (to hurry). Here, it expresses how an action takes place (adverbial). Rather than saying 'I want to hurry and then gulp down food', it is 'quickly gulp down food'.",
+      "を": "Used for action verbs.",
+      "かきこみ": "(掻き込む) To scoop up. In the context of food, to gulp down, to eat quickly.",
+      "Link": "https://selftaughtjapanese.com/2019/07/10/japanese-grammar-an-overview-of-the-te-form-and-an-important-use-nobody-taught-you/"
+    },
+    "level": 8
+  },
+  {
+    "id": 72,
+    "vocab": "間",
+    "japanese": "筏を作っている間に、俺達みんな餓死にしちまうよ！泳いで川を渡った方が無難なんじゃないか？",
+    "english": "In the time it takes to build a raft we’ll die of starvation! Wouldn’t it be safer to just swim across the river?",
+    "englishlit": "",
+    "grammar": { "": "" },
+    "level": 8
   }
 ]
