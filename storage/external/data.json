@@ -722,5 +722,42 @@
       "になります": "To become"
     },
     "level": 11
+  },
+  {
+    "id": 58,
+    "vocab": "活気",
+    "japanese": "この町は、とても活気があります。",
+    "english": "This city is very lively.",
+    "englishlit": "Speaking of this town, very lively it is.",
+    "grammar": {
+      "とても": "Very",
+      "が": "Generally ga is used for static verbs (e.g. exists) and wo for action verbs (e.g. eat)",
+      "あります": "Existence/to have for non-living objects."
+    },
+    "level": 6
+  },
+  {
+    "id": 59,
+    "vocab": "活気",
+    "japanese": "ニッカはいつも活気にあふれている。",
+    "english": "Nikka is always full of energy.",
+    "englishlit": "As for Nikka, always energy is full of.",
+    "grammar": {
+      "いつも": "Always",
+      "に": "is '(filled) with' or '(full) of'. It's one of the particles you can use with あふれる, 満ちる, etc. Both ～にあふれる and ～であふれる are used, but the former tends to be used with intangible things like 笑顔, 人情味, etc."
+    },
+    "level": 6
+  },
+  {
+    "id": 60,
+    "vocab": "活気",
+    "japanese": "市場は活気にあふれていた。",
+    "english": "The market was overflowing with energy.",
+    "englishlit": "",
+    "grammar": {
+      "市場": "Market",
+      "に": "is '(filled) with' or '(full) of'. It's one of the particles you can use with あふれる, 満ちる, etc. Both ～にあふれる and ～であふれる are used, but the former tends to be used with intangible things like 笑顔, 人情味, etc."
+    },
+    "level": 6
   }
 ]
