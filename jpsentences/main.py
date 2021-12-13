@@ -6,8 +6,11 @@ import jpsentences.helpers as jph
 # Read data
 df = pd.read_json(jp.external_dir() / "data.json")
 
-# Generate extra info
+# Load Wanikani
 wk = jph.Wanikani(False)
+wk.worse_assignments()
+
+# Generate extra info
 df["romaji"] = df.japanese.apply(jph.Wanikani.romaji)
 df["japanese_raw"] = df.japanese
 df["japanese"] = df.japanese.apply(wk.furigana)

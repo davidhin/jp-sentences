@@ -111,7 +111,7 @@ class Wanikani:
         id = self.sql.execute(f"SELECT id FROM subjects where {where}").first()
         return "Not found" if not id else self.subjects[id[0]]
 
-    def worse_assignments(self, sorttype="total"):
+    def worse_assignments(self):
         """View worse assignments in WaniKani."""
         df = pd.DataFrame.from_records([i["data"] for i in self.reviews])
         df = df.rename(columns={"incorrect_meaning_answers": "meaning"})
