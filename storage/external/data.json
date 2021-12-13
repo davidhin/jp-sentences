@@ -224,7 +224,7 @@
     "english": "Please put three balls in here",
     "englishlit": "(in) here balls three put in please",
     "grammar": {
-      "に": "Indication of location",
+      "に": "Indication for location where something is",
       "を": "を because action verb is used (入れて)",
       "入れて": "入れる->入れて te form means put in or insert."
     },
@@ -670,7 +670,7 @@
   {
     "id": 54,
     "vocab": "人情",
-    "japanese": "私達は　Tofuguの毎日のブログ記事を　通して、日本人の生き方や人情を　描き出す 　ことを目指しています。",
+    "japanese": "私達は　Tofuguの毎日のブログ記事を　通して、日本人の生き方や人情を　描き出すことを　目指しています。",
     "english": "Our goal with the daily Tofugu articles is to depict human nature, emotions, and the everyday lives of Japanese individuals.",
     "englishlit": "As for us, everyday-tofugu-block-articles through this, Japanese people's lives and humanity etc, we depict, is what we aim to do.",
     "grammar": {
@@ -678,9 +678,49 @@
       "通して": "through; via; throughout; by ~. Te-form of 通す, to let pass.",
       "や": "The Japanese grammar particle や (ya) implies that there are other items that are not listed after mentioning two nouns (nounやnounを/が).  It is similar to 'and', but gives us the sense of a continuing list similar to 'etc'.  It is far more common to use nado or toka (literally: 'etc.') to achieve the same affect while speaking. や (ya) is used mostly in formal writing.",
       "描き出す": "To depict, express, imagine, delineate",
-      "目指して": "to aim at/to have an eye on",
-      "ことを目指して": "Translates to 'The aim/goal is...'. こと emphasises that it is THE aim of Tofugu (?)."
+      "こと": "If you place の or こと after verbs, it will become a noun.",
+      "目指して": "Translates to 'The aim/goal is...'"
     },
     "level": 13
+  },
+  {
+    "id": 55,
+    "vocab": "通う",
+    "japanese": "えっ、北海道から　おきなわまで　毎日通ってるの？",
+    "english": "What!? Are you going back and forth between Hokkaido and Okinawa every day?",
+    "englishlit": "Eh? From Hokkaido to Okinawa everyday you go?",
+    "grammar": {
+      "から/まで": "まで (made) and から (kara) are often used in the same sentence to describe a route between A and B. The form is: Point A から Point B まで",
+      "の": "Instead of 「か」, real questions in casual speech are usually asked with the explanatory の particle or nothing at all except for a rise in intonation. の can also be used to indicate surprise or disbelief."
+    },
+    "level": 11
+  },
+  {
+    "id": 56,
+    "vocab": "通う",
+    "japanese": "コウイチは、トーフグのオフィスまで　ハーレーで　通っています。",
+    "english": "Koichi commutes to the Tofugu office on a Harley‐Davidson.",
+    "englishlit": "",
+    "grammar": {
+      "まで": "To [X], To the point of [X]",
+      "ハーレーで": "Harley‐Davidson (Type of motorcycle)"
+    },
+    "level": 11
+  },
+  {
+    "id": 57,
+    "vocab": "通う",
+    "japanese": "私の妹は、四月から　トーフグ学園に　通うこと　になります。",
+    "english": "My younger sister will attend Tofugu Academy starting in April.",
+    "englishlit": "My younger sister, from April, attendance will become.",
+    "grammar": {
+      "の": "As a possessive, no comes between two nouns, after the possessor and before the possessee.",
+      "から": "from/since (e.g. time, place, numerical quantity)",
+      "学園": "Academy/Campus",
+      "に": "Indication for location where something is",
+      "こと": "If you place の or こと after verbs, it will become a noun. (nominalization)",
+      "になります": "To become"
+    },
+    "level": 11
   }
 ]
