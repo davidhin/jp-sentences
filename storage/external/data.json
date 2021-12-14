@@ -934,5 +934,51 @@
       "なんじゃないか": "Isn't it?"
     },
     "level": 8
+  },
+  {
+    "id": 73,
+    "vocab": "向ける",
+    "japanese": "俺は　突然　カメラを　向けられるのが　大嫌いなんだよ！",
+    "english": "I have a huge phobia of cameras suddenly pointing towards me.",
+    "englishlit": "I sudden cameras turning towards (me), really hate!",
+    "grammar": {
+      "俺": "I (おれ)",
+      "突然": "Suddenly (とつぜん)",
+      "られる": "Passive suffix, which tells us that a verb is done to someone.  'X' is the experiencer, 'Y' is the doer, and '〜られる' is the action: Xは Yに 〜られる。",
+      "のが": "In this instance, の is nominalising the verb 向けられる so that it can be referred to as the subject (が) of the sentence.",
+      "大嫌い": "大っきらい: (adj-na, n) very dislikeable; hate, loathe, abhor",
+      "なんだよ": "Casual exclamation, akin to 'what the heck?', but in this case, a bit weird (?)"
+    },
+    "level": 8
+  },
+  {
+    "id": 74,
+    "vocab": "向ける",
+    "japanese": "スマホじゃなくて子どもに、目を向けてあげてください。",
+    "english": "Please turn your attention from your phone to your kid.",
+    "englishlit": "",
+    "grammar": {
+      "スマホ": "Smartphone",
+      "じゃなくて": "In this context, it means 'instead of'. I.e. instead of smartphone...",
+      "に": "If the verb has a nuance of direction or motion, the particle should be に",
+      "てあげて": "Verb-てform + あげる: say someone is doing/did a favor for someone else. The subsidiary verb あげる implies the subject is doing something beneficial to the other person. If 'te', implies benefit to the subject (e.g. Please be her friend, please give him support, please look at your child)"
+    },
+    "level": 8
+  },
+  {
+    "id": 75,
+    "vocab": "向ける",
+    "japanese": "その男はゆっくりと俺に銃口を向けた。",
+    "english": "The man slowly pointed the muzzle of the gun at me.",
+    "englishlit": "",
+    "grammar": {
+      "ゆっくり": "Onomatopoeia: Slowly / spin around",
+      "と": "The 「と」 places a small amount of emphasis on the onomatopoeic adverb. It can sound slightly more formal and for that reason, it tends to be more often used in writing than in speaking.",
+      "俺": "I (おれ)",
+      "に": "If the verb has a nuance of direction or motion, the particle should be に",
+      "銃口": "Muzzle/Gunpoint (じゅうこう)",
+      "を": "Action verb (向けた)"
+    },
+    "level": 8
   }
 ]
