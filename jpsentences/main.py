@@ -18,6 +18,9 @@ df["japanese"] = df.japanese.apply(wk.furigana)
 # Move level column to last
 df = df[[c for c in df.columns if c != "level"] + ["level"]]
 
+# Generate tags
+df["tags"] = df.japanese_raw.apply(wk.sentence_known).astype(str)
+
 # Grammar rules to consecutive divs
 df.grammar = df.grammar.apply(
     lambda x: "".join([f"<div>{i}</div>" for j in x.items() for i in j])

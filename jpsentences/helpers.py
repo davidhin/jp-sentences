@@ -145,3 +145,10 @@ class Wanikani:
                 }
             )
         return ret
+
+    def sentence_known(self, text):
+        """Return False if sentence contains unknown kanji."""
+        kanji = set(Wanikani.get_kanji(text))
+        if len(kanji.difference(self.known_kanji)) > 0:
+            return "Unknown_Kanji"
+        return "Known_Kanji"
