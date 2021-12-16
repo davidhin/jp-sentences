@@ -9,7 +9,8 @@
     "**/*.sif": true,
     "**/*.dccache": true,
     "**/*.pyc": true,
-    "**/workspace/": true
+    "**/workspace/": true,
+    "**/storage/cache/": true
   },
   "files.watcherExclude": {
     ".pytest_cache": true,
