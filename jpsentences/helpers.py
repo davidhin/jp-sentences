@@ -111,6 +111,51 @@ class Wanikani:
         id = self.sql.execute(f"SELECT id FROM subjects where {where}").first()
         return "Not found" if not id else self.subjects[id[0]]
 
+    def all(self, query) -> list:
+        """Get all subject ids from query with same characters."""
+        if isinstance(query, int):
+            query = self.subject(query)["data"]["characters"]
+        where = f"characters == '{query}'"
+        id = self.sql.execute(f"SELECT id FROM subjects where {where}").fetchall()
+        return [self.subject(i[0])["id"] for i in id]
+
+    def get_by_level(self, level: int, type: str) -> list:
+        """Get items by level."""
+        where = f"level == '{level}'"
+        id = self.sql.execute(
+            f"SELECT id FROM subjects where {where} and object == '{type}'"
+        ).fetchall()
+        ret = []
+        for i in id:
+            data = [self.subject(j) for j in self.all(i[0])]
+            if len(data) == 0:
+                continue
+            item = dict()
+            item["chars"] = data[0]["data"]["characters"]
+            item["mnemonic"] = ""
+            mean_dict = {}
+            for dt in range(len(data)):
+                meaning = ",".join([k["meaning"] for k in data[dt]["data"]["meanings"]])
+                if meaning not in mean_dict:
+                    mean_dict[meaning] = data[dt]["object"].upper()[0]
+                else:
+                    mean_dict[meaning] += ", " + data[dt]["object"].upper()[0]
+                item["mnemonic"] += data[dt]["object"].upper()[0] + ": "
+                item["mnemonic"] += data[dt]["data"]["meaning_mnemonic"]
+                try:
+                    item["mnemonic"] += " " + data[dt]["data"]["meaning_hint"]
+                except Exception:
+                    pass
+                item["mnemonic"] = item["mnemonic"].replace("<radical>", "<strong>")
+                item["mnemonic"] = item["mnemonic"].replace("</radical>", "</strong>")
+                item["mnemonic"] = item["mnemonic"].replace("<kanji>", "<u>")
+                item["mnemonic"] = item["mnemonic"].replace("</kanji>", "</u>")
+                if dt < len(data) - 1:
+                    item["mnemonic"] += "<br/><br/>"
+            item["meaning"] = "<br/>".join([f"{v}: {k}" for k, v in mean_dict.items()])
+            ret.append(item)
+        return ret
+
     def worse_assignments(self):
         """View worse assignments in WaniKani."""
         df = pd.DataFrame.from_records([i["data"] for i in self.reviews])
